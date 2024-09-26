@@ -91,7 +91,6 @@ def simulationCapteur(tab):#cette fonction simule des données enregistrées par
 def affichage():
     global database
     database = []#le tableau qui va stocker toutes les données des capteurs
-    print("##################FARBOS Paulin##################")####graphique
     print("############Données brutes############")####graphique
     simulationCapteur(database)#utilisation de la fonction simulationCapteur. Elle récupère les données des capteurs et les envoies à la database
     print(database)#on affiche les informations brutes stockées dans le tableau database
